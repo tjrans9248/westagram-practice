@@ -1,0 +1,25 @@
+// .main{
+//   background-color: lightgray;
+// }
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.main-inner-container{
+  width: 500px;
+  
+  
+}
+.main-feed-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 450px;
+  // border: 1px solid lightgray;
+  width: 490px;
+  height: 800px;
+
+}

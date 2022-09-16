@@ -1,0 +1,92 @@
+
+@import "../styles/variables.scss";
+
+.login{
+  @include flexCenter;
+  margin-top: 50px;
+
+  .login-main{
+    @include flexCenter;
+    width: 600px;
+    height: 800px;
+    border: $border-lightgrey;
+    background-color: whitesmoke;
+
+    .login-inner{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 570px;
+      height: 780px;
+      border: 1px solid gray;
+      background-color: white;
+    
+      .login-logo{
+        text-align: center;
+        font-size: 90px;
+        margin-bottom: 100px;
+        font-family: 'Lobster', cursive;
+      }
+      
+      .login-input{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+
+        .login-id{
+          width: 500px;
+          height: 70px;
+          border-radius: 9px;
+          font-size: 20px;
+          padding-left: 20px;
+          border: $border-lightgrey;
+        }
+        
+        .login-password{
+          width: 500px;
+          height: 70px;
+          margin: 1em;
+          border-radius: 9px;
+          font-size: 20px;
+          padding-left: 20px;
+          border: $border-lightgrey;
+          
+        }
+        
+        .login-button{
+          position: relative;
+          top: 40px;
+          width: 520px;
+          height: 70px;
+          border-radius: 9px;
+          font-size: 20px;
+          color: white;
+          border: $border-lightgrey;
+          background: #33CAFF;
+          &:disabled{
+            background-color: whitesmoke;
+          }
+        }
+
+        .login-password-lost{
+          position: relative;
+          top: 140px;
+          font-size: 23px;
+          color: lightgrey;
+          &:hover {
+            color: rgb(0, 123, 255);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

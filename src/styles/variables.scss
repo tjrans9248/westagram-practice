@@ -1,0 +1,9 @@
+$border-lightgrey: 1px solid lightgray;
+
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items:center
+}
+

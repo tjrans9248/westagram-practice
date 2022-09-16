@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "navId": "chosimstudycafe",
+    "navImage":"https://i.pinimg.com/474x/84/60/71/846071c12ba028802f0e74a4ba672d6a.jpg",
+    "feedImage":"https://i.pinimg.com/474x/5c/eb/06/5ceb0667b4646090819fccbc0708bef8.jpg" 
+  },
+
+  {
+    "id": 2,
+    "navId": "chosimstudycafe",
+    "navImage":"https://i.pinimg.com/474x/84/60/71/846071c12ba028802f0e74a4ba672d6a.jpg",
+    "feedImage":"https://i.pinimg.com/474x/5c/eb/06/5ceb0667b4646090819fccbc0708bef8.jpg" 
+  },
+
+  {
+    "id": 3,
+    "navId": "chosimstudycafe",
+    "navImage":"https://i.pinimg.com/474x/84/60/71/846071c12ba028802f0e74a4ba672d6a.jpg",
+    "feedImage":"https://i.pinimg.com/474x/5c/eb/06/5ceb0667b4646090819fccbc0708bef8.jpg" 
+  },
+
+  {
+    "id": 3,
+    "navId": "chosimstudycafe",
+    "navImage":"https://i.pinimg.com/474x/84/60/71/846071c12ba028802f0e74a4ba672d6a.jpg",
+    "feedImage":"https://i.pinimg.com/474x/5c/eb/06/5ceb0667b4646090819fccbc0708bef8.jpg" 
+  }
+
+]

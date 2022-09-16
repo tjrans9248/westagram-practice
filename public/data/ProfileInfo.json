@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "userImage": "./data/images/sean.jpeg",
+    "userId": "tjrans9248",
+    "userName":"회원님을 위한 추천"
+  },
+
+  {
+    "id": 2,
+    "userImage": "./images/sean1.jpeg",
+    "userId": "genie3942",
+    "userName":"회원님을 위한 추천"
+  }
+
+  
+]

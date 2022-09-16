@@ -1,0 +1,132 @@
+
+.main-feed{
+  border: 1px solid lightgray;
+  border-radius: 7px;
+ 
+}
+
+.main-feed-nav{
+  width: 470px;
+  height: 60px;
+  // border-radius: 7px;
+  border: 1px solid lightgray;
+
+  .main-feed-nav-inner{
+    position: relative;
+    top: 6px;
+  }
+
+  .main-feed-nav-image-box{
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius: 70%;
+  }
+
+  .main-feed-nav-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .main-nav-feed-id{
+    position: relative;
+    font-weight:bold;
+    left: 70px;
+    bottom: 30px;
+  }
+
+  .feed-nav-ellipsis{
+    position: relative;
+    left: 440px;
+    bottom: 50px;
+  }
+}
+
+.main-feed-main{
+  width: 470px;
+  height: 468px;
+  
+  border: 1px solid lightgray;
+
+  .main-feed-main-pic{
+    width: 470px;
+    height: 468px;
+    // border-radius: 7px;
+  }
+}
+
+.main-feed-comment{
+  width: 470px;
+  height: 250px;
+  // border: 1px solid red;
+
+  .main-feed-footer-icons{
+    display: flex;
+    justify-content: space-between;
+    // border: 1px solid blue;
+    width: 470px;
+    height: 36px;
+    font-size: 30px;
+
+    .icon-padding{
+      padding-inline: 10px;
+    }
+    
+    .icon-padding2{
+      padding-right:10px;
+    }
+  }
+
+  .main-feed-footer-comments{
+    // border: 1px solid black;
+    width: 470px;
+    height: 190px;
+    
+    .comment-list{
+      // border: 1px solid blue;
+      width: 460px;
+      font-size: 18px;
+
+      .comment-box{
+        display: flex;
+        justify-content: space-between;
+
+        .comment span{
+          padding-left: 10px;
+        }
+
+        .comment span:first-child{
+          font-weight: bold;
+        }
+      }
+      .icon-box i{
+        padding-right: 10px;
+      }
+    }
+
+    .inputAndButton{
+      // border:1px solid red;
+
+      .comment-input{
+        width: 400px;
+        height: 40px;
+        border: 1px solid white;
+        border-top: 1px solid lightgray;
+        outline: none;
+      }
+  
+      .comment-button{
+        width: 59px;
+        height: 44px;
+        background-color: white;
+        border: 1px solid white;
+        border-top: 1px solid lightgray;
+        color: rgb(61, 76, 214);
+      }
+    }
+  }
+}
